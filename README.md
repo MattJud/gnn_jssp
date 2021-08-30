@@ -14,6 +14,8 @@ Datasets of this thesis are generated based on:
 1. Normal datasets: https://www.scitepress.org/Link.aspx?doi=10.5220/0010202405890597
 2. L2D datasets: https://arxiv.org/abs/2010.12367
 
+Note: Dataset for problem above the size of 10x10 are removed in PyG form due to GitHub 50mb file size limit.
+
 # Models
 
 - Baseline:
