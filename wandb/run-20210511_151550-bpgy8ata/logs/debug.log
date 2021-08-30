@@ -1,0 +1,26 @@
+2021-05-11 15:15:50,580 INFO    MainThread:5891 [wandb_setup.py:_flush():69] setting env: {}
+2021-05-11 15:15:50,580 INFO    MainThread:5891 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-05-11 15:15:50,581 INFO    MainThread:5891 [wandb_init.py:_log_setup():336] Logging user logs to /home/matthew/thesis/repo/master_thesis/wandb/run-20210511_151550-bpgy8ata/logs/debug.log
+2021-05-11 15:15:50,581 INFO    MainThread:5891 [wandb_init.py:_log_setup():337] Logging internal logs to /home/matthew/thesis/repo/master_thesis/wandb/run-20210511_151550-bpgy8ata/logs/debug-internal.log
+2021-05-11 15:15:50,581 INFO    MainThread:5891 [wandb_init.py:_jupyter_setup():287] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fd0891acd90>
+2021-05-11 15:15:50,581 INFO    MainThread:5891 [wandb_init.py:init():369] calling init triggers
+2021-05-11 15:15:50,582 INFO    MainThread:5891 [wandb_init.py:init():374] wandb.init called with sweep_config: {}
+config: {'epochs': 1000, 'seed_num': 24, 'torch_seed': 24, 'batch_size': 64, 'learning_rate': 0.001, 'dataset': 'DG3x3', 'architecture': 'GIN0', 'num_layers': 5, 'hidden_dim': 128, 'total_fold': 5}
+2021-05-11 15:15:50,582 INFO    MainThread:5891 [wandb_init.py:init():418] starting backend
+2021-05-11 15:15:50,582 INFO    MainThread:5891 [backend.py:_multiprocessing_setup():69] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2021-05-11 15:15:50,584 INFO    MainThread:5891 [backend.py:ensure_launched():123] starting backend process...
+2021-05-11 15:15:50,602 INFO    MainThread:5891 [backend.py:ensure_launched():127] started backend process with pid: 27706
+2021-05-11 15:15:50,603 INFO    MainThread:5891 [wandb_init.py:init():423] backend started and connected
+2021-05-11 15:15:50,604 INFO    MainThread:5891 [wandb_init.py:init():463] updated telemetry
+2021-05-11 15:15:50,604 INFO    MainThread:5891 [wandb_init.py:init():482] communicating current version
+2021-05-11 15:15:51,168 INFO    MainThread:5891 [wandb_init.py:init():487] got version response upgrade_message: "wandb version 0.10.30 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2021-05-11 15:15:51,169 INFO    MainThread:5891 [wandb_init.py:init():495] communicating run to backend with 30 second timeout
+2021-05-11 15:15:51,474 INFO    MainThread:5891 [wandb_init.py:init():520] starting run threads in backend
+2021-05-11 15:15:51,533 INFO    MainThread:5891 [wandb_run.py:_console_start():1524] atexit reg
+2021-05-11 15:15:51,533 INFO    MainThread:5891 [wandb_run.py:_redirect():1371] redirect: SettingsConsole.WRAP
+2021-05-11 15:15:51,533 INFO    MainThread:5891 [wandb_run.py:_redirect():1414] Wrapping output streams.
+2021-05-11 15:15:51,533 INFO    MainThread:5891 [wandb_run.py:_redirect():1438] Redirects installed.
+2021-05-11 15:15:51,533 INFO    MainThread:5891 [wandb_init.py:init():544] run started, returning control to user process
+2021-05-11 15:15:51,539 INFO    MainThread:5891 [wandb_run.py:_config_callback():749] config_cb None None {'train_size': 800, 'test_size': 200}
+2021-05-11 15:19:51,051 INFO    MainThread:5891 [wandb_run.py:finish():1167] finishing run fatalys/DG3x3/bpgy8ata

@@ -1,0 +1,109 @@
+2021-06-01 13:44:57,100 INFO    MainThread:3086 [wandb_setup.py:_flush():69] setting env: {}
+2021-06-01 13:44:57,100 INFO    MainThread:3086 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-06-01 13:44:57,100 INFO    MainThread:3086 [wandb_init.py:_log_setup():336] Logging user logs to /home/matthew/thesis/repo/master_thesis/wandb/run-20210601_134457-1z4vdd4v/logs/debug.log
+2021-06-01 13:44:57,100 INFO    MainThread:3086 [wandb_init.py:_log_setup():337] Logging internal logs to /home/matthew/thesis/repo/master_thesis/wandb/run-20210601_134457-1z4vdd4v/logs/debug-internal.log
+2021-06-01 13:44:57,101 INFO    MainThread:3086 [wandb_init.py:init():369] calling init triggers
+2021-06-01 13:44:57,101 INFO    MainThread:3086 [wandb_init.py:init():374] wandb.init called with sweep_config: {}
+config: {'epochs': 1000, 'seed_num': 24, 'torch_seed': 24, 'batch_size': 64, 'learning_rate': 0.01, 'dataset': 'v2_DG3x3', 'architecture': 'EGC', 'total_fold': 5, 'Scheduler': 'Plateau'}
+2021-06-01 13:44:57,101 INFO    MainThread:3086 [wandb_init.py:init():389] re-initializing run, found existing run on stack: 39lmi672
+2021-06-01 13:44:57,101 INFO    MainThread:3086 [wandb_run.py:finish():1167] finishing run fatalys/v2_DG3x3/39lmi672
+2021-06-01 13:44:57,101 INFO    MainThread:3086 [jupyter.py:save_history():320] not saving jupyter history
+2021-06-01 13:44:57,101 INFO    MainThread:3086 [jupyter.py:save_ipynb():265] not saving jupyter notebook
+2021-06-01 13:44:57,101 INFO    MainThread:3086 [wandb_init.py:_jupyter_teardown():268] cleaning up jupyter logic
+2021-06-01 13:44:57,101 INFO    MainThread:3086 [wandb_run.py:_atexit_cleanup():1494] got exitcode: 0
+2021-06-01 13:44:57,101 INFO    MainThread:3086 [wandb_run.py:_restore():1466] restore
+2021-06-01 13:44:57,305 INFO    MainThread:3086 [wandb_run.py:_wait_for_finish():1616] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 818
+  total_bytes: 818
+}
+
+2021-06-01 13:44:58,041 INFO    MainThread:3086 [wandb_run.py:_wait_for_finish():1616] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 818
+  total_bytes: 6835
+}
+
+2021-06-01 13:44:58,339 INFO    MainThread:3086 [wandb_run.py:_wait_for_finish():1616] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 6835
+  total_bytes: 6835
+}
+
+2021-06-01 13:44:58,440 INFO    MainThread:3086 [wandb_run.py:_wait_for_finish():1616] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 6835
+  total_bytes: 6835
+}
+
+2021-06-01 13:44:58,541 INFO    MainThread:3086 [wandb_run.py:_wait_for_finish():1616] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 6835
+  total_bytes: 6835
+}
+
+2021-06-01 13:44:58,643 INFO    MainThread:3086 [wandb_run.py:_wait_for_finish():1616] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 6835
+  total_bytes: 6835
+}
+
+2021-06-01 13:44:58,745 INFO    MainThread:3086 [wandb_run.py:_wait_for_finish():1616] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 6835
+  total_bytes: 6835
+}
+
+2021-06-01 13:44:58,847 INFO    MainThread:3086 [wandb_run.py:_wait_for_finish():1616] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 6835
+  total_bytes: 6835
+}
+
+2021-06-01 13:44:58,949 INFO    MainThread:3086 [wandb_run.py:_wait_for_finish():1616] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 6835
+  total_bytes: 6835
+}
+
+2021-06-01 13:45:00,035 INFO    MainThread:3086 [wandb_run.py:_show_files():1838] logging synced files
+2021-06-01 13:45:00,036 INFO    MainThread:3086 [wandb_init.py:init():418] starting backend
+2021-06-01 13:45:00,036 INFO    MainThread:3086 [backend.py:_multiprocessing_setup():69] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2021-06-01 13:45:00,038 INFO    MainThread:3086 [backend.py:ensure_launched():123] starting backend process...
+2021-06-01 13:45:00,053 INFO    MainThread:3086 [backend.py:ensure_launched():127] started backend process with pid: 10967
+2021-06-01 13:45:00,054 INFO    MainThread:3086 [wandb_init.py:init():423] backend started and connected
+2021-06-01 13:45:00,055 INFO    MainThread:3086 [wandb_init.py:init():463] updated telemetry
+2021-06-01 13:45:00,055 INFO    MainThread:3086 [wandb_init.py:init():482] communicating current version
+2021-06-01 13:45:00,576 INFO    MainThread:3086 [wandb_init.py:init():487] got version response upgrade_message: "wandb version 0.10.31 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2021-06-01 13:45:00,578 INFO    MainThread:3086 [wandb_init.py:init():495] communicating run to backend with 30 second timeout
+2021-06-01 13:45:00,804 INFO    MainThread:3086 [wandb_init.py:init():520] starting run threads in backend
+2021-06-01 13:45:00,859 INFO    MainThread:3086 [wandb_run.py:_console_start():1524] atexit reg
+2021-06-01 13:45:00,859 INFO    MainThread:3086 [wandb_run.py:_redirect():1371] redirect: SettingsConsole.WRAP
+2021-06-01 13:45:00,859 INFO    MainThread:3086 [wandb_run.py:_redirect():1414] Wrapping output streams.
+2021-06-01 13:45:00,860 INFO    MainThread:3086 [wandb_run.py:_redirect():1438] Redirects installed.
+2021-06-01 13:45:00,860 INFO    MainThread:3086 [wandb_init.py:init():544] run started, returning control to user process
+2021-06-01 13:45:00,860 INFO    MainThread:3086 [wandb_run.py:_config_callback():749] config_cb None None {'train_size': 800, 'test_size': 200}
+2021-06-01 13:45:00,882 INFO    MainThread:3086 [wandb_run.py:_config_callback():749] config_cb None None {'num_layers': 6, 'hidden_dim': 128}
+2021-06-01 13:52:29,790 INFO    MainThread:3086 [wandb_run.py:finish():1167] finishing run fatalys/v2_DG3x3/1z4vdd4v

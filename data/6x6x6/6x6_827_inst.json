@@ -1,0 +1,333 @@
+{
+    "optimal_time": 59.0,
+    "spt_time": 73,
+    "lpt_time": 59,
+    "n_jobs": 6,
+    "n_resources": 6,
+    "n_ops_per_job": 6,
+    "max_op_time": 11,
+    "jssp_identification": "6x6_827_inst.json",
+    "cp-sat_solver_time": 0.01940664602443576,
+    "spt_compute_time": 2.42611773009412,
+    "lpt_compute_time": 1.800090806093067,
+    "jssp_instance": {
+        "durations": [
+            [
+                11,
+                8,
+                11,
+                9,
+                11,
+                2
+            ],
+            [
+                5,
+                5,
+                5,
+                1,
+                3,
+                2
+            ],
+            [
+                9,
+                10,
+                9,
+                10,
+                4,
+                5
+            ],
+            [
+                10,
+                10,
+                3,
+                10,
+                6,
+                2
+            ],
+            [
+                8,
+                3,
+                3,
+                3,
+                2,
+                10
+            ],
+            [
+                2,
+                4,
+                2,
+                1,
+                3,
+                2
+            ]
+        ],
+        "machines": [
+            [
+                4,
+                1,
+                0,
+                2,
+                3,
+                5
+            ],
+            [
+                3,
+                0,
+                2,
+                1,
+                4,
+                5
+            ],
+            [
+                4,
+                1,
+                0,
+                2,
+                3,
+                5
+            ],
+            [
+                0,
+                2,
+                3,
+                4,
+                5,
+                1
+            ],
+            [
+                5,
+                4,
+                2,
+                1,
+                3,
+                0
+            ],
+            [
+                3,
+                2,
+                5,
+                1,
+                4,
+                0
+            ]
+        ]
+    },
+    "optimal_gantt_data": {
+        "0": {
+            "Job_num": 3,
+            "Mach_num": 0,
+            "Job_time": 10,
+            "Start_time": 0
+        },
+        "1": {
+            "Job_num": 1,
+            "Mach_num": 0,
+            "Job_time": 5,
+            "Start_time": 10
+        },
+        "2": {
+            "Job_num": 0,
+            "Mach_num": 0,
+            "Job_time": 11,
+            "Start_time": 19
+        },
+        "3": {
+            "Job_num": 2,
+            "Mach_num": 0,
+            "Job_time": 9,
+            "Start_time": 30
+        },
+        "4": {
+            "Job_num": 4,
+            "Mach_num": 0,
+            "Job_time": 10,
+            "Start_time": 39
+        },
+        "5": {
+            "Job_num": 5,
+            "Mach_num": 0,
+            "Job_time": 2,
+            "Start_time": 49
+        },
+        "6": {
+            "Job_num": 0,
+            "Mach_num": 1,
+            "Job_time": 8,
+            "Start_time": 11
+        },
+        "7": {
+            "Job_num": 5,
+            "Mach_num": 1,
+            "Job_time": 1,
+            "Start_time": 19
+        },
+        "8": {
+            "Job_num": 2,
+            "Mach_num": 1,
+            "Job_time": 10,
+            "Start_time": 20
+        },
+        "9": {
+            "Job_num": 4,
+            "Mach_num": 1,
+            "Job_time": 3,
+            "Start_time": 30
+        },
+        "10": {
+            "Job_num": 1,
+            "Mach_num": 1,
+            "Job_time": 1,
+            "Start_time": 33
+        },
+        "11": {
+            "Job_num": 3,
+            "Mach_num": 1,
+            "Job_time": 2,
+            "Start_time": 47
+        },
+        "12": {
+            "Job_num": 5,
+            "Mach_num": 2,
+            "Job_time": 4,
+            "Start_time": 7
+        },
+        "13": {
+            "Job_num": 3,
+            "Mach_num": 2,
+            "Job_time": 10,
+            "Start_time": 11
+        },
+        "14": {
+            "Job_num": 1,
+            "Mach_num": 2,
+            "Job_time": 5,
+            "Start_time": 21
+        },
+        "15": {
+            "Job_num": 4,
+            "Mach_num": 2,
+            "Job_time": 3,
+            "Start_time": 26
+        },
+        "16": {
+            "Job_num": 0,
+            "Mach_num": 2,
+            "Job_time": 9,
+            "Start_time": 30
+        },
+        "17": {
+            "Job_num": 2,
+            "Mach_num": 2,
+            "Job_time": 10,
+            "Start_time": 39
+        },
+        "18": {
+            "Job_num": 1,
+            "Mach_num": 3,
+            "Job_time": 5,
+            "Start_time": 0
+        },
+        "19": {
+            "Job_num": 5,
+            "Mach_num": 3,
+            "Job_time": 2,
+            "Start_time": 5
+        },
+        "20": {
+            "Job_num": 3,
+            "Mach_num": 3,
+            "Job_time": 3,
+            "Start_time": 21
+        },
+        "21": {
+            "Job_num": 4,
+            "Mach_num": 3,
+            "Job_time": 2,
+            "Start_time": 33
+        },
+        "22": {
+            "Job_num": 0,
+            "Mach_num": 3,
+            "Job_time": 11,
+            "Start_time": 39
+        },
+        "23": {
+            "Job_num": 2,
+            "Mach_num": 3,
+            "Job_time": 4,
+            "Start_time": 50
+        },
+        "24": {
+            "Job_num": 0,
+            "Mach_num": 4,
+            "Job_time": 11,
+            "Start_time": 0
+        },
+        "25": {
+            "Job_num": 2,
+            "Mach_num": 4,
+            "Job_time": 9,
+            "Start_time": 11
+        },
+        "26": {
+            "Job_num": 4,
+            "Mach_num": 4,
+            "Job_time": 3,
+            "Start_time": 20
+        },
+        "27": {
+            "Job_num": 5,
+            "Mach_num": 4,
+            "Job_time": 3,
+            "Start_time": 23
+        },
+        "28": {
+            "Job_num": 3,
+            "Mach_num": 4,
+            "Job_time": 10,
+            "Start_time": 26
+        },
+        "29": {
+            "Job_num": 1,
+            "Mach_num": 4,
+            "Job_time": 3,
+            "Start_time": 36
+        },
+        "30": {
+            "Job_num": 4,
+            "Mach_num": 5,
+            "Job_time": 8,
+            "Start_time": 0
+        },
+        "31": {
+            "Job_num": 5,
+            "Mach_num": 5,
+            "Job_time": 2,
+            "Start_time": 11
+        },
+        "32": {
+            "Job_num": 1,
+            "Mach_num": 5,
+            "Job_time": 2,
+            "Start_time": 39
+        },
+        "33": {
+            "Job_num": 3,
+            "Mach_num": 5,
+            "Job_time": 6,
+            "Start_time": 41
+        },
+        "34": {
+            "Job_num": 0,
+            "Mach_num": 5,
+            "Job_time": 2,
+            "Start_time": 51
+        },
+        "35": {
+            "Job_num": 2,
+            "Mach_num": 5,
+            "Job_time": 5,
+            "Start_time": 54
+        }
+    }
+}

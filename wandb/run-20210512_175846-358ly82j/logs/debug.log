@@ -1,0 +1,37 @@
+2021-05-12 17:58:46,022 INFO    MainThread:5057 [wandb_setup.py:_flush():69] setting env: {}
+2021-05-12 17:58:46,022 INFO    MainThread:5057 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-05-12 17:58:46,022 INFO    MainThread:5057 [wandb_init.py:_log_setup():336] Logging user logs to /home/matthew/thesis/repo/master_thesis/wandb/run-20210512_175846-358ly82j/logs/debug.log
+2021-05-12 17:58:46,022 INFO    MainThread:5057 [wandb_init.py:_log_setup():337] Logging internal logs to /home/matthew/thesis/repo/master_thesis/wandb/run-20210512_175846-358ly82j/logs/debug-internal.log
+2021-05-12 17:58:46,022 INFO    MainThread:5057 [wandb_init.py:_jupyter_setup():287] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7ff7598fad00>
+2021-05-12 17:58:46,022 INFO    MainThread:5057 [wandb_init.py:init():369] calling init triggers
+2021-05-12 17:58:46,022 INFO    MainThread:5057 [wandb_init.py:init():374] wandb.init called with sweep_config: {}
+config: {'epochs': 1000, 'seed_num': 24, 'torch_seed': 24, 'batch_size': 64, 'learning_rate': 0.001, 'dataset': 'DG3x3', 'architecture': 'PNA', 'num_layers': 5, 'hidden_dim': 75, 'total_fold': 5}
+2021-05-12 17:58:46,022 INFO    MainThread:5057 [wandb_init.py:init():418] starting backend
+2021-05-12 17:58:46,022 INFO    MainThread:5057 [backend.py:_multiprocessing_setup():69] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2021-05-12 17:58:46,024 INFO    MainThread:5057 [backend.py:ensure_launched():123] starting backend process...
+2021-05-12 17:58:46,041 INFO    MainThread:5057 [backend.py:ensure_launched():127] started backend process with pid: 25633
+2021-05-12 17:58:46,042 INFO    MainThread:5057 [wandb_init.py:init():423] backend started and connected
+2021-05-12 17:58:46,044 INFO    MainThread:5057 [wandb_init.py:init():463] updated telemetry
+2021-05-12 17:58:46,044 INFO    MainThread:5057 [wandb_init.py:init():482] communicating current version
+2021-05-12 17:58:47,011 INFO    MainThread:5057 [wandb_init.py:init():487] got version response upgrade_message: "wandb version 0.10.30 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2021-05-12 17:58:47,012 INFO    MainThread:5057 [wandb_init.py:init():495] communicating run to backend with 30 second timeout
+2021-05-12 17:58:47,296 INFO    MainThread:5057 [wandb_init.py:init():520] starting run threads in backend
+2021-05-12 17:58:47,379 INFO    MainThread:5057 [wandb_run.py:_console_start():1524] atexit reg
+2021-05-12 17:58:47,379 INFO    MainThread:5057 [wandb_run.py:_redirect():1371] redirect: SettingsConsole.WRAP
+2021-05-12 17:58:47,380 INFO    MainThread:5057 [wandb_run.py:_redirect():1414] Wrapping output streams.
+2021-05-12 17:58:47,380 INFO    MainThread:5057 [wandb_run.py:_redirect():1438] Redirects installed.
+2021-05-12 17:58:47,380 INFO    MainThread:5057 [wandb_init.py:init():544] run started, returning control to user process
+2021-05-12 17:58:47,381 INFO    MainThread:5057 [wandb_run.py:_config_callback():749] config_cb None None {'train_size': 800, 'test_size': 200}
+2021-05-12 18:02:23,101 INFO    MainThread:5057 [wandb_init.py:_pause_backend():249] pausing backend
+2021-05-12 18:02:23,101 INFO    MainThread:5057 [jupyter.py:save_ipynb():265] not saving jupyter notebook
+2021-05-12 18:02:28,588 INFO    MainThread:5057 [wandb_init.py:_resume_backend():258] resuming backend
+2021-05-12 18:02:28,680 INFO    MainThread:5057 [wandb_setup.py:_flush():69] setting env: {}
+2021-05-12 18:02:28,680 INFO    MainThread:5057 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-05-12 18:02:28,680 INFO    MainThread:5057 [wandb_init.py:_log_setup():336] Logging user logs to /home/matthew/thesis/repo/master_thesis/wandb/run-20210512_180228-1p0x3f05/logs/debug.log
+2021-05-12 18:02:28,680 INFO    MainThread:5057 [wandb_init.py:_log_setup():337] Logging internal logs to /home/matthew/thesis/repo/master_thesis/wandb/run-20210512_180228-1p0x3f05/logs/debug-internal.log
+2021-05-12 18:02:28,681 INFO    MainThread:5057 [wandb_init.py:init():369] calling init triggers
+2021-05-12 18:02:28,681 INFO    MainThread:5057 [wandb_init.py:init():374] wandb.init called with sweep_config: {}
+config: {'epochs': 1000, 'seed_num': 24, 'torch_seed': 24, 'batch_size': 64, 'learning_rate': 0.001, 'dataset': 'DG3x3', 'architecture': 'PNA', 'num_layers': 5, 'hidden_dim': 75, 'total_fold': 5}
+2021-05-12 18:02:28,681 INFO    MainThread:5057 [wandb_init.py:init():389] re-initializing run, found existing run on stack: 358ly82j
+2021-05-12 18:02:28,681 INFO    MainThread:5057 [wandb_run.py:finish():1167] finishing run fatalys/DG3x3/358ly82j
